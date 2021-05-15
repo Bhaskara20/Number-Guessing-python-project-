@@ -1,0 +1,28 @@
+START
+
+-Input minimum
+-Input maximum
+-Decide a variable as a hidden answer
+
+-maxAnswer = Log2(maximum-minimum+1)
+
+-While answerCount<=maxAnswer
+    answerCount+=1
+
+    input answer
+    if hiddenAnswer<answer
+        print terlalu besar
+    elseif hiddenAnswer>answer
+        print terlalu kecil
+    elseif hiddenAnswer==answer
+        print benar
+
+
+-if answerCount>=maxAnswer
+    kalah
+
+
+END
+
+
+
